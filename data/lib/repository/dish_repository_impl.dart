@@ -1,0 +1,1 @@
+// class DishRepositoryImpl implements DishRepository {}
