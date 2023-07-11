@@ -10,11 +10,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  data:
+    path: ../data
+  domain:
+    path: ../domain
+  navigation:
+    path: ../navigation
+
+
+  firebase_core: ^2.14.0
+  cloud_firestore: ^4.8.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

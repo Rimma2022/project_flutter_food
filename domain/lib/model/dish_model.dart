@@ -1,7 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'dish_model.freezed.dart';
-part 'dish_model.g.dart';
 
 @freezed
 class DishModel with _$DishModel {
@@ -13,8 +12,6 @@ class DishModel with _$DishModel {
     required String description,
     required List<String> ingredients,
   }) = _DishModel;
-  factory DishModel.fromJson(Map<String, dynamic> json) =>
-      _$DishModelFromJson(json);
 }
 
 // class DishModel {
